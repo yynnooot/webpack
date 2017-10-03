@@ -13,7 +13,7 @@ const buildMarker = (type,coords) => {
     markerDomEl.style.width = "32px";
     markerDomEl.style.height = "39px";
     markerDomEl.style.backgroundImage = iconUrls[type];
-    new mapboxgl.Marker(markerDomEl).setLngLat(coords).addTo(map);
+    new mapboxgl.Marker(markerDomEl).setLngLat(coords);
 
 };
 

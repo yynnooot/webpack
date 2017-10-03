@@ -7,6 +7,73 @@
     <script src="./bundle.js" defer></script>
   </head>
   <body>
+    <header>
+      <div id="logo"></div>    
+      <nav>
+        <div class="nav-links">
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-links">
+          <a href="#">About</a>
+        </div>
+        <div class="nav-links">
+          <a href="#">Contact</a>
+        </div>
+      </nav> 
+    </header>
+
     <div id="map"></div>
+
+    <div id="choices">
+      <div id="choices-title">
+        <h1>Plan Your Trip:</h1>
+      <div>
+      <div class="choice-option">
+        <h3>Hotels</h3>
+        <select>
+          <option>Option #1</option>
+          <option>Option #2</option>
+          <option>Option #3</option>
+        </select>
+      </div>
+      <div class="choice-option">
+        <h3>Restaurants</h3>
+        <select>
+          <option>Option #1</option>
+          <option>Option #2</option>
+          <option>Option #3</option>
+        </select>
+      </div>
+      <div class="choice-option">
+        <h3>Things To Do</h3>
+        <select>
+          <option>Option #1</option>
+          <option>Option #2</option>
+          <option>Option #3</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="itinerary">
+      <div id="itinerary-title">
+        <h1>Itinerary</h1>
+      </div>
+      <div class="itinerary-choices">
+        <h3>Hotels</h3>
+        <ul id="chosen-hotel">
+        </ul>
+      </div>
+      <div class="itinerary-choices">
+        <h3>Restaurants</h3>
+        <ul id="chosen-restaurant">
+        </ul>
+      </div>
+      <div class="itinerary-choices">
+        <h3>Things to Do</h3>
+        <ul id="chosen-activities">
+        </ul>
+      </div>
+    </div>
+
   </body>
 </html>
